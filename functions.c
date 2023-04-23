@@ -138,7 +138,7 @@ int print_int(va_list types, char buffer[],
 
 	x++;
 
-	return (write_number(is_negative, i, buffer, flags, width, precision, size));
+	return (write_number(is_negative, x, buffer, flags, width, precision, size));
 }
 
 /**** PRINT BINARY ****/
