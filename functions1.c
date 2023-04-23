@@ -4,7 +4,7 @@
 /**
  * print_unsigned -  function that Prints an unsigned number
  * @types: List a of arguments covered
- * @buffer: Buffer array 
+ * @buffer: Buffer array
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
@@ -39,7 +39,7 @@ int print_unsigned(va_list types, char buffer[],
 /**
  * print_octal - function that Prints an unsigned number in octal notation
  * @types: List of arguments
- * @buffer: Buffer array 
+ * @buffer: Buffer array
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
@@ -79,9 +79,9 @@ int print_octal(va_list types, char buffer[],
 
 /***** PRINT UNSIGNED NUMBER IN HEXADECIMAL *****/
 /**
- * print_hexadecimal - functions that Prints an unsigned number in hexadecimal notation
+ * print_hexadecimal - functions that Prints an unsigned number in hexa
  * @types: List of arguments
- * @buffer: Buffer array 
+ * @buffer: Buffer array
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
@@ -97,7 +97,7 @@ int print_hexadecimal(va_list types, char buffer[],
 
 /***** PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL *****/
 /**
- * print_hexa_upper - function that Prints an unsigned number in upper hexadecimal notation
+ * print_hexa_upper - function that Prints an unsigned number in upper hexa
  * @types: List of arguments
  * @buffer: Buffer array
  * @flags:  Calculates active flags
